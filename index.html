@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Safeline Errand & Logistics Services | Errands in Nnewi, Anambra</title>
+<meta name="description" content="Shopping, pickups, deliveries and personal assistance in Nnewi, Anambra State. Request an errand on WhatsApp.">
+<style>
+:root{--p:#4B1D8F;--pd:#35136b;--s:#E8DCC8;--bg:#fff;--t:#222;--m:#666}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--t);line-height:1.6}
+nav{position:sticky;top:0;z-index:20;background:var(--p);display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;flex-wrap:wrap}
+nav .logo{display:flex;align-items:center;gap:.5rem;color:#fff;font-weight:700;text-decoration:none}nav .logo img{height:36px}
+nav .links{display:flex;gap:.2rem;flex-wrap:wrap}nav a.l{color:#fff;text-decoration:none;padding:.4rem .6rem;border-radius:6px;font-size:.9rem}nav a.l:hover,nav a.l.on{background:rgba(255,255,255,.18)}
+#menu{display:none;background:none;border:0;color:#fff;font-size:1.6rem}
+@media(max-width:820px){#menu{display:block}nav .links{display:none;width:100%;flex-direction:column}nav .links.open{display:flex}}
+main{min-height:70vh}.page{display:none;animation:f .4s}.page.on{display:block}@keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+section{padding:3rem 1.2rem;max-width:1050px;margin:auto}h1,h2{color:var(--p);line-height:1.2}
+.hero{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;padding:3rem 1.2rem}.hero>div{max-width:1050px;margin:auto;display:grid;gap:2rem;align-items:center;grid-template-columns:1fr 1fr}
+@media(max-width:820px){.hero>div{grid-template-columns:1fr}}.hero h1{color:#fff;font-size:clamp(2rem,6vw,3.2rem)}
+.hero .img{background:var(--s);border-radius:20px;min-height:260px;display:flex;align-items:center;justify-content:center;font-size:7rem;overflow:hidden}.hero .img img{width:100%;height:100%;object-fit:cover}
+.btn{display:inline-block;padding:.8rem 1.3rem;border-radius:30px;font-weight:600;text-decoration:none;border:0;cursor:pointer;font-size:1rem;margin:.3rem .3rem .3rem 0}
+.b1{background:var(--s);color:var(--pd)}.b2{background:#25D366;color:#fff}.b3{background:var(--p);color:#fff}
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border:1px solid #e6e0f0;border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(75,29,143,.07)}
+.card .ph{background:var(--s);height:130px;display:flex;align-items:center;justify-content:center;font-size:3.5rem}.card .ph img{width:100%;height:100%;object-fit:cover}
+.card .bd{padding:1rem}.card ul{padding-left:1.1rem;color:var(--m);font-size:.92rem}
+.steps{counter-reset:s;list-style:none;padding:0}.steps li{counter-increment:s;background:var(--s);border-radius:14px;padding:1rem 1rem 1rem 3.4rem;margin:.6rem 0;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:.9rem;top:.8rem;width:1.8rem;height:1.8rem;border-radius:50%;background:var(--p);color:#fff;text-align:center;line-height:1.8rem;font-weight:700}
+.note{background:var(--s);border-left:5px solid var(--p);padding:1rem;border-radius:8px}
+form{display:grid;gap:.9rem}label{font-weight:600;font-size:.9rem;display:grid;gap:.3rem}
+input,select,textarea{padding:.7rem;border:1px solid #cfc4e3;border-radius:10px;font:inherit;width:100%}
+details{border:1px solid #e6e0f0;border-radius:10px;padding:.7rem 1rem;margin:.5rem 0}summary{cursor:pointer;font-weight:600;color:var(--p)}
+footer{background:var(--pd);color:#fff;padding:2rem 1.2rem;text-align:center}footer a{color:var(--s)}
+.fab{position:fixed;right:16px;bottom:16px;z-index:30;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;font-size:1.8rem;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+#msg{font-weight:600;color:var(--p)}
+</style></head><body>
+<nav><a class="logo" href="#home"><img src="logo.png" alt="" onerror="this.remove()">Safeline Errands</a><button id="menu" aria-label="Menu">☰</button>
+<div class="links" id="links"><a class="l" href="#home">Home</a><a class="l" href="#services">Services</a><a class="l" href="#how">How It Works</a><a class="l" href="#about">About</a><a class="l" href="#areas">Areas</a><a class="l" href="#contact">Contact</a><a class="l" href="#request" style="background:var(--s);color:var(--pd)">Request an Errand</a></div></nav>
+<main>
+<div class="page" id="home"><div class="hero"><div><div><h1>Your Everyday Errands, Handled.</h1><p>From shopping and pickups to deliveries and personal assistance, Safeline makes everyday life easier. Tell us what you need and we will handle the rest.</p>
+<a class="btn b1" href="#request">Book an Errand</a><a class="btn b2 wa" target="_blank" rel="noopener">Chat With Us on WhatsApp</a></div>
+<div class="img"><img src="hero.jpg" alt="Safeline delivery rider" onerror="this.replaceWith('🏍️')"></div></div></div>
+<section><h2>What we do</h2><div class="grid" id="homeSvc"></div></section>
+<section><div class="note"><b>Target delivery:</b> within 2 hours after quotation approval and payment, subject to availability, distance and service type.</div></section></div>
+
+<div class="page" id="services"><section><h1>Our Services</h1><div class="grid" id="svcList"></div></section></div>
+
+<div class="page" id="how"><section><h1>How It Works</h1><ol class="steps"><li>Select the service you require.</li><li>Submit your request through WhatsApp.</li><li>Safeline confirms availability and sends a quotation.</li><li>Customer pays and sends payment evidence.</li><li>Safeline assigns a rider to complete the errand.</li></ol>
+<div class="note"><b>Target delivery time:</b> Within 2 hours after quotation approval and payment, subject to availability, distance and service type.</div><p><a class="btn b3" href="#request">Start a Request</a></p></section></div>
+
+<div class="page" id="about"><section><h1>About Safeline</h1><p>Safeline Errand &amp; Logistics Services is a Nnewi-based errand, delivery and dispatch service. We give busy people, families and businesses a trustworthy way to get things done without leaving home or the office.</p><p>Every request is confirmed by our team, quoted transparently and completed by an assigned rider. No account needed, no surprise pricing.</p></section></div>
+
+<div class="page" id="areas"><section><h1>Service Areas</h1><p>We currently serve <b>Nnewi, Anambra State, Nigeria</b> and nearby areas, subject to distance and availability. Not sure if we cover you? Send us a message.</p><a class="btn b2 wa" target="_blank" rel="noopener">Ask on WhatsApp</a></section></div>
+
+<div class="page" id="contact"><section><h1>Contact Us</h1><div class="grid"><div>
+<form id="cf"><label>Name<input name="name" required></label><label>Phone<input name="phone" type="tel"></label><label>Email<input name="email" type="email"></label><label>Message<textarea name="message" rows="4" required></textarea></label><button class="btn b3">Send Message</button><span id="cmsg"></span></form></div>
+<div><p><a class="btn b2 wa" target="_blank" rel="noopener">WhatsApp Us</a></p><p>📞 <span id="cPhone">+234 XXX XXX XXXX</span><br>✉️ <span id="cEmail">hello@safeline.example</span><br>📍 Nnewi, Anambra State, Nigeria</p><h3>Opening Hours</h3><p id="cHours">Mon–Sat 8:00am – 7:00pm</p></div></div>
+<h2>FAQs</h2><details><summary>Do I need an account?</summary>No. Just submit your request.</details><details><summary>How is pricing done?</summary>We send a quotation on WhatsApp after reviewing your request. Nothing is charged automatically.</details><details><summary>How do I pay?</summary>After you approve the quotation, pay as instructed and send us the payment evidence.</details><details><summary>How fast is delivery?</summary>Target is within 2 hours after quotation approval and payment, subject to availability, distance and service type.</details></section></div>
+
+<div class="page" id="request"><section style="max-width:640px"><h1>Request an Errand</h1><form id="rf">
+<label>Full name<input name="full_name" required></label><label>Phone number<input name="phone" type="tel" required></label>
+<label>Service category<select name="service" id="svcSel" required></select></label>
+<label>Pickup address<input name="pickup"></label><label>Delivery address<input name="delivery"></label>
+<label>Preferred date<input name="preferred_date" type="date"></label>
+<label>Description of errand<textarea name="description" rows="3" required></textarea></label>
+<label>Additional instructions<textarea name="instructions" rows="2"></textarea></label>
+<button class="btn b2">SUBMIT REQUEST</button><span id="msg"></span></form>
+<p style="color:var(--m);font-size:.9rem">Submitting opens WhatsApp with your details. We'll confirm, quote, and assign a rider there.</p></section></div>
+</main>
+<footer><b>Safeline Errand &amp; Logistics Services</b><br>Nnewi, Anambra State, Nigeria<br><small>© <span id="yr"></span> Safeline. All rights reserved.</small></footer>
+<a class="fab wa" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+const CFG={SUPABASE_URL:'',SUPABASE_ANON_KEY:'',WHATSAPP:'234XXXXXXXXXX'}; // fill in
+const sb=CFG.SUPABASE_URL?supabase.createClient(CFG.SUPABASE_URL,CFG.SUPABASE_ANON_KEY):null;
+let wa=CFG.WHATSAPP;const $=s=>document.querySelector(s);
+let SVC=[
+{category:'shopping',title:'Shopping Services',description:'We shop so you do not have to.',items:'Grocery shopping|Supermarket shopping|Market shopping|Pharmacy pickups|Household purchases',e:'🛒'},
+{category:'delivery',title:'Pickup & Delivery',description:'Fast, careful pickup and drop-off.',items:'Parcel collection|Food collection|Store-to-home delivery|Personal item delivery',e:'📦'},
+{category:'documents',title:'Document Services',description:'Safe handling of your important papers.',items:'Document collection|Office delivery|Submission and collection of documents',e:'📄'},
+{category:'assistance',title:'Personal Assistance',description:'Extra hands for your day.',items:'General errands|Queue assistance|Shopping assistance|Other approved personal requests',e:'🤝'}];
+const E={shopping:'🛒',delivery:'📦',documents:'📄',assistance:'🤝'};
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function waLink(t){return 'https://wa.me/'+wa+(t?'?text='+encodeURIComponent(t):'')}
+function paint(){
+ document.querySelectorAll('.wa').forEach(a=>a.href=waLink('Hello Safeline, I need help with an errand.'));
+ const card=s=>`<div class="card"><div class="ph"><img src="img/${esc(s.category)}.jpg" alt="${esc(s.title)}" onerror="this.replaceWith('${E[s.category]||'✨'}')"></div><div class="bd"><h3>${esc(s.title)}</h3><p>${esc(s.description)}</p><ul>${(s.items||'').split('|').map(i=>`<li>${esc(i)}</li>`).join('')}</ul><a class="btn b3" href="#request" data-svc="${esc(s.title)}">Request This Service</a></div></div>`;
+ $('#svcList').innerHTML=SVC.map(card).join('');$('#homeSvc').innerHTML=SVC.map(card).join('');
+ $('#svcSel').innerHTML=SVC.map(s=>`<option>${esc(s.title)}</option>`).join('');
+}
+document.addEventListener('click',e=>{const a=e.target.closest('[data-svc]');if(a)setTimeout(()=>$('#svcSel').value=a.dataset.svc,0);
+ if(e.target.closest('a.l'))$('#links').classList.remove('open')});
+$('#menu').onclick=()=>$('#links').classList.toggle('open');
+function route(){const id=(location.hash||'#home').slice(1);const p=document.getElementById(id)?id:'home';
+ document.querySelectorAll('.page').forEach(x=>x.classList.toggle('on',x.id===p));
+ document.querySelectorAll('a.l').forEach(a=>a.classList.toggle('on',a.hash==='#'+p));scrollTo(0,0)}
+addEventListener('hashchange',route);$('#yr').textContent=new Date().getFullYear();
+async function load(){if(!sb)return;try{
+ const {data:s}=await sb.from('services').select('*').eq('active',true).order('sort');if(s&&s.length)SVC=s;
+ const {data:st}=await sb.from('settings').select('*');(st||[]).forEach(r=>{if(r.key==='whatsapp'&&!/X/.test(r.value))wa=r.value;
+  if(r.key==='phone')$('#cPhone').textContent=r.value;if(r.key==='email')$('#cEmail').textContent=r.value;if(r.key==='hours')$('#cHours').textContent=r.value});
+}catch(e){console.warn(e)}paint()}
+$('#rf').onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));
+ if(!d.preferred_date)d.preferred_date=null;
+ const t=`*NEW ERRAND REQUEST - SAFELINE*\n\n*Name:* ${d.full_name}\n*Phone:* ${d.phone}\n*Service:* ${d.service}\n*Pickup:* ${d.pickup||'-'}\n*Delivery:* ${d.delivery||'-'}\n*Preferred date:* ${d.preferred_date||'-'}\n*Errand:* ${d.description}\n*Instructions:* ${d.instructions||'-'}`;
+ const w=window.open('','_blank');
+ if(sb){try{const {error}=await sb.from('requests').insert(d);if(error)throw error}catch(x){console.warn(x)}}
+ const u=waLink(t);if(w)w.location=u;else location.href=u;
+ $('#msg').textContent=' Request sent. Complete it in WhatsApp.';e.target.reset()};
+$('#cf').onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));
+ if(sb){try{await sb.from('enquiries').insert(d)}catch(x){console.warn(x)}}
+ window.open(waLink(`Enquiry from ${d.name}: ${d.message}`),'_blank');$('#cmsg').textContent=' Thank you, we will respond soon.';e.target.reset()};
+paint();route();load();
+</script></body></html>
